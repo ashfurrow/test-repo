@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check for incomplete task list items
-        uses: ashfurrow/task-list-checker@master
+        uses: ashfurrow/task-list-checker@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Task List Checker
