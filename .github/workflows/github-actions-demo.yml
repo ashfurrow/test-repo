@@ -7,7 +7,7 @@ on:
   pull_request_review_comment:
     types: [created, edited, deleted]
 jobs:
-  hello-world:
+  task-list-checker:
     runs-on: ubuntu-latest
     steps:
       - name: Check for incomplete task list items
