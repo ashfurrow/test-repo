@@ -13,5 +13,4 @@ jobs:
       - name: Check for incomplete task list items
         uses: ashfurrow/task-list-checker@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: Task List Checker
+          github-token: ${{ secrets.GITHUB_TOKEN }}
