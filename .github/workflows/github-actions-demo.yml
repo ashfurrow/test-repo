@@ -14,4 +14,3 @@ jobs:
         uses: ashfurrow/task-list-checker@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          run-id: ${{ github.run_id }}
