@@ -2,10 +2,6 @@ name: GitHub Task List Checker
 on:
   pull_request:
     types: [opened, edited]
-  pull_request_review:
-    types: [submitted, edited, dismissed]
-  pull_request_review_comment:
-    types: [created, edited, deleted]
 jobs:
   task-list-checker:
     runs-on: ubuntu-latest
